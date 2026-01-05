@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+
+# Jupyter Notebook checkpoints
+workspace/notebooks/.ipynb_checkpoints/
+
+# Data - ignore all images and large raw data
+Data/
+Data/EuroSAT/AnnualCrop/
+Data/EuroSAT/Forest/
+Data/EuroSAT/HerbaceousVegetation/
+Data/EuroSAT/Highway/
+Data/EuroSAT/Industrial/
+Data/EuroSAT/Pasture/
+Data/EuroSAT/PermanentCrop/
+Data/EuroSAT/Residential/
+Data/EuroSAT/River/
+Data/EuroSAT/SeaLake/
+Data/EuroSATallBands/AnnualCrop/
+Data/EuroSATallBands/Forest/
+Data/EuroSATallBands/HerbaceousVegetation/
+Data/EuroSATallBands/Highway/
+Data/EuroSATallBands/Industrial/
+Data/EuroSATallBands/Pasture/
+Data/EuroSATallBands/PermanentCrop/
+Data/EuroSATallBands/Residential/
+Data/EuroSATallBands/River/
+Data/EuroSATallBands/SeaLake/
+
+# Workspace images (if large, ignore them)
+workspace/images/
+
+# Logs, outputs, and results
+*.log
+*.out
+*.csv
+*.npz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+.env/
